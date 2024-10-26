@@ -1,0 +1,56 @@
+/* RESET STYLES */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* GENERAL STYLES */
+
+body {
+  font-family: "Roboto", serif;
+}
+
+/* HEADER + HERO */
+header, .hero {
+  background-color: #1F2937;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+header {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.header-right ul li {
+  list-style-type: none;
+}
+
+.header-right a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.links li {
+  display: inline-block;
+}
+
+.hero-blurb h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.hero-blurb p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-blurb button {
+  background-color: #3882f6;
+  color: #E5E7EB;
+}
