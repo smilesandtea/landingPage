@@ -87,18 +87,57 @@ header, .hero {
 
 .subsection {
   text-align: center;
-  margin-bottom: 2em;
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
+  margin-bottom: 5em;
+}
+
+.subsection h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin: 1.5em 0;
 }
 
 .images-gallery {
   display: flex;
+}
+
+.image-block {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-content: center;
+}
+
+.image-block p {
+  padding-top: 1em;
+}
+
+.images-gallery img {
+  border-radius: 1em;
 }
 
 .images-gallery img, .images-gallery p {
-  width: 50%;
+  width: 55%;
+}
+
+/* Quote */
+
+.quote-section {
+  background: #E5E7EB;
+}
+
+.quote {
+  width: 60%;
+}
+
+.quote blockquote {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: bold;
 }
