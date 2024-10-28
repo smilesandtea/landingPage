@@ -10,7 +10,8 @@ body {
   font-family: "Roboto", serif;
 }
 
-/* HEADER + HERO */
+
+/* HEADER */
 header, .hero {
   background-color: #1F2937;
 }
@@ -20,10 +21,11 @@ header, .hero {
   color: #F9FAF8;
 }
 
-header {
+.top-container {
   display: flex;
-  width: 80%;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1em;
 }
 
 .header-right ul li {
@@ -39,6 +41,25 @@ header {
   display: inline-block;
 }
 
+.links {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+/* HERO */
+
+.hero {
+  height: 40em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-blurb {
+  width: 30%;
+}
+
 .hero-blurb h1 {
   font-size: 48px;
   font-weight: 900;
@@ -48,9 +69,36 @@ header {
 .hero-blurb p {
   font-size: 18px;
   color: #E5E7EB;
+  width: 95%;
 }
 
 .hero-blurb button {
   background-color: #3882f6;
   color: #E5E7EB;
+  border: none;
+  border-radius: 1em;
+  padding: 1em 1.5em;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+/* Subsection */
+
+.subsection {
+  text-align: center;
+  margin-bottom: 2em;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.images-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.images-gallery img, .images-gallery p {
+  width: 50%;
 }
