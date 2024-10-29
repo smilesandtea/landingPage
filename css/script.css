@@ -126,18 +126,74 @@ header, .hero {
 
 .quote-section {
   background: #E5E7EB;
+  padding: 6em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .quote {
-  width: 60%;
+  width: 50%;
+  color: #1F2937;
 }
 
 .quote blockquote {
   font-size: 36px;
+  font-weight: 300;
   font-style: italic;
 }
 
 .quote p {
-  font-size: 36px;
+  padding-top: 1em;
+  width: 95%;
+  font-size: 26px;
   font-weight: bold;
+  text-align: right;
+}
+
+/* Call to Action */
+
+.call-to-action {
+  height: 22em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action-featured {
+  width: 50%;
+  height: 10em;
+  background:#3882f6;
+  border-radius: 1em;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.call-to-action-featured h3 {
+  font-size: 1.6em;
+}
+
+.cta-button {
+  background: none;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 1em;
+  padding: .5em 3em;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+  background: #1F2937;
+  height: 6em;
+  color: #fff;
+  font-size: 1.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
